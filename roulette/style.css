@@ -33,6 +33,7 @@ body {
     color: white;
     text-decoration: none;
 }
+
 .container {
     width: 500px;
     height: 500px;
@@ -122,4 +123,18 @@ body {
     cursor: pointer;
     outline: none;
     letter-spacing: 1px;
+}
+.win-score {
+    width: 300px;
+    height: 300px;
+    font-size: 15px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    position: absolute;
+    border: solid 15px navy;
+    display: none;
+}
+.win-score h2 {
+    font-size: 40px;
 }
